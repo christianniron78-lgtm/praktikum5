@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: beige;
+}
+
+.kotak {
+    width: 150px;
+    height: 250px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 30px;
+}
+
+.satu  { background-color: #f5e942; }
+.dua   { background-color: #ff6624; }
+.tiga  { background-color: #aedf91; }
+.empat { background-color: #4dd8fb; }
+
+/* Gambar 2: kotak berisi foto */
+.foto {
+    height: 150px;
+    border: none;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
